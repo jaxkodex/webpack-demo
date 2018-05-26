@@ -1,0 +1,20 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "This is a webpack test",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist/ && webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "jaxkodex",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.5.16",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  }
+}
